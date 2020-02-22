@@ -1,0 +1,43 @@
+1. Newton Second Law - Pseudocode
+
+	STORE "m" to 600
+	STORE "a" to 2
+	STORE "F" without value
+	CALCULATE "m" times "a"
+	SET "F" value with calculation result
+	DISPLAY "F"
+
+
+2. Tahun Kabisat - Pseudocode
+
+	STORE "year" to any number
+	IF "year" mod 4 equals 0 AND "year" mod 100 NOT equals 0
+		DISPLAY "Tahun Kabisat"
+	ELSE IF "year" mod 4 equals 0 AND "year" mod 100 equals 0 AND "year" mod 400 equals 0
+		DISPLAY "Tahun Kabisat"
+	ELSE 
+		DISPLAY "Bukan Tahun Kabisat"
+	
+	
+3. Laundry Day - Pseudocode
+
+	STORE "count" to 0
+	DISPLAY "count"
+	WHILE "count" < 20
+		ADD "count" by 1
+		DISPLAY "count"
+	IF "count" equals 20
+		DISPLAY "Washing machine activated"
+
+
+4. Periksa Kuku - Pseudocode
+
+	STORE "students" to 1
+	STORE "limit length" to specific value;
+	WHILE "students" < 41
+		IF "students i' nail" > "limit length"
+			DO "menghukum students i"
+		ELSE 
+			DO "memuji students i"
+		ADD "students" by 1
+	DISPLAY "Pemeriksaan selesai"
