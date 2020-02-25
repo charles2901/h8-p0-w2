@@ -10,7 +10,7 @@ while(count1 <= 20){
 }
 console.log("LOOPING KEDUA");
 while(count2 >= 2){
-  console.log(count2 + "- I love coding");
+  console.log(count2 + "- I will become fullstack developer");
   count2 -= 2;
 }
 
