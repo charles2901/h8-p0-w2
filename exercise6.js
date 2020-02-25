@@ -16,10 +16,12 @@ while(count2 >= 2){
 
 
 //2. Melakukan Looping Menggunakan For
-
+console.log("LOOPING PERTAMA");
 for(i = 1; i <= 20; i++){
     console.log(i + " - I love coding");
   }
+
+console.log("LOOPING KEDUA");
 for(j = 20; j >= 1; j--){
     console.log(j + " - I will become fullstack developer")
 }
