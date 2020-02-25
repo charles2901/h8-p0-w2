@@ -32,10 +32,10 @@ for(j = 20; j >= 1; j--){
 var counter = 1;
 while(counter <= 100){
   if(counter % 2 == 0){
-    console.log("GENAP")
+    console.log(counter + "GENAP")
   }
   else{
-    console.log("GANJIL")
+    console.log(counter +"GANJIL")
   }
   counter++;
 }
