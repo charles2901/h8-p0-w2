@@ -3,11 +3,12 @@
 var count1 = 2;
 var count2 = 20;
 
+console.log("LOOPING PERTAMA");
 while(count1 <= 20){
   console.log(count1 + "- I love coding");
   count1 += 2;
 }
-
+console.log("LOOPING KEDUA");
 while(count2 >= 2){
   console.log(count2 + "- I love coding");
   count2 -= 2;
