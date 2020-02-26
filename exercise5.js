@@ -20,6 +20,7 @@ var thirdWord2 = word2[15] + word2[16];
 var fourthWord2 = word2[18] + word2[19]; 
 var fifthWord2 = word2[21] + word2[22] + word2[23] + word2[24]; 
 
+console.log(' ');
 console.log('First Word: ' + exampleFirstWord2);
 console.log('Second Word: ' + secondWord2);
 console.log('Third Word: ' + thirdWord2);
@@ -36,6 +37,7 @@ var thirdWord3 = word3.substring(15,17);
 var fourthWord3 = word3.substring(18,20); 
 var fifthWord3 = word3.substring(21,25);
 
+console.log(' ');
 console.log('First Word: ' + exampleFirstWord3);
 console.log('Second Word: ' + secondWord3);
 console.log('Third Word: ' + thirdWord3);
@@ -57,8 +59,8 @@ var secondWordLength = secondWord4.length;
 var thirdWordLength = thirdWord4.length;
 var fourthWordLength = fourthWord4.length;
 var fifthWordLength = fifthWord4.length;
-// create new variables around here
 
+console.log(' ');
 console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 console.log('Second Word: ' + secondWord4 + ', with length: ' + secondWordLength);
 console.log('Third Word: ' + thirdWord4 + ', with length: ' + thirdWordLength);

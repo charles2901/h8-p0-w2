@@ -7,6 +7,7 @@ function barisanBintang(rows1){
 }
 var rows1 = 5;
 barisanBintang(rows1);
+console.log(' ');
 
 
 //2. Menyusun Barisan Bintang Dengan Nested Looping
@@ -22,18 +23,17 @@ function barisanBintangNested(rows2){
 }
 var rows2 = 5;
 barisanBintangNested(rows2);
+console.log(' ');
 
 
 //3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 function barisanTanggaBintang(rows3){
-    var count = 1;
     for(i = 0; i < rows3; i++){
         var tampung = '';
-        for(j = 0; j < count; j++){
+        for(j = 0; j <= i; j++){
             tampung += '*';
         }
         console.log(tampung);
-        count++;
     }
 }
 

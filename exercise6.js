@@ -29,6 +29,8 @@ for(j = 20; j >= 1; j--){
 
 //3. Angka Ganjil dan Genap
 
+console.log(' ');
+
 var counter = 1;
 while(counter <= 100){
   if(counter % 2 == 0){
