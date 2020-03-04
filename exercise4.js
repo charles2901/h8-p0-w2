@@ -1,12 +1,24 @@
-var tanggal = 31;
+var tanggal = 29;
 var bulan = 1;
 var tahun = 1945;
+
+var hariKabisat;
+
+if(tahun % 4 == 0 && tahun % 100 != 0){
+  hariKabisat = 29;  
+}
+else if(tahun % 4 == 0 && tahun % 100 == 0 && tahun % 400 == 0){
+  hariKabisat = 29;
+}
+else{
+  hariKabisat = 28;
+}
 
 switch(true){
   case bulan == 1 && tanggal <= 31 && tanggal >= 1 && tahun >= 1900 && tahun <= 2200:
     console.log(`${tanggal} Januari ${tahun}`);
     break;
-  case bulan == 2 && tanggal <= 28 && tanggal >= 1 && tahun >= 1900 && tahun <= 2200:
+  case bulan == 2 && tanggal <= hariKabisat && tanggal >= 1 && tahun >= 1900 && tahun <= 2200:
     console.log(`${tanggal} Februari ${tahun}`);
     break;
   case bulan == 3 && tanggal <= 31 && tanggal >= 1 && tahun >= 1900 && tahun <= 2200:
